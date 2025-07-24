@@ -17,8 +17,8 @@ import geopandas_example as gpd
 # TODO: Store credentials in a file
 # TODO: Create the Database if it doesn't exists
 
-user = "postgres"
-password = "postgres"
+user = input("Enter user name: ")
+password = input("Enter password: ")
 host = "localhost"
 port = 5432
 database = "24003C"
